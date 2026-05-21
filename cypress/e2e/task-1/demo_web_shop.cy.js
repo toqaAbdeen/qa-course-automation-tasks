@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 describe('Demo Web Shop', () => {
     it("Find the elements by best selectors", () => {
-        cy.visit('/')
+        cy.visit("https://demowebshop.tricentis.com/register")
         cy.get(".header-logo")
         cy.get('a[class="ico-login"]') // or we can just use  cy.get(".ico-login"), just to try different ways to find the elements
         cy.get("#small-searchterms")
