@@ -1,6 +1,7 @@
-@CheckoutTest
+@CheckoutTest.feature
 Feature: Checkout functionality
 
+    @checkout
     Scenario: Complete purchase flow
         Given I login successfully
         When I add a product to cart

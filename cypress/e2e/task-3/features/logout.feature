@@ -1,4 +1,4 @@
-@LogoutTest
+@LogoutTest.feature
 Feature: Logout functionality
 
     @logout
